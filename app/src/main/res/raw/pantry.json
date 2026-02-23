@@ -1,0 +1,16 @@
+[
+  {
+    "id": 751,
+    "nazwa": "Kosmiczne Mleko",
+    "ilość": 840,
+    "jednostka": "szt",
+    "kategoria": "Żywność"
+  },
+  {
+    "id": 87,
+    "nazwa": "Mały Zestaw Naprawczy",
+    "ilość": 120,
+    "jednostka": "brak",
+    "kategoria": "Ekwipunek"
+  }
+]
