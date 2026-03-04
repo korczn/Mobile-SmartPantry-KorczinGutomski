@@ -9,35 +9,35 @@
     android:background="#1E1E1E">
 
     <ImageView
-    android:id="@+id/iv_product_icon"
-    android:layout_width="48dp"
-    android:layout_height="48dp"
-    android:layout_marginEnd="16dp"
-    android:src="@android:drawable/menu_frame" />
+        android:id="@+id/iv_product_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/woda" />
 
     <LinearLayout
-    android:layout_width="0dp"
-    android:layout_height="wrap_content"
-    android:layout_weight="1"
-    android:orientation="vertical">
-
-    <TextView
-        android:id="@+id/tv_product_name"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Nazwa"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:layout_weight="1"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/tv_product_category"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Kategoria"
-        android:textColor="#AAAAAA"
-        android:textSize="14sp" />
-</LinearLayout>
+        <TextView
+            android:id="@+id/tv_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nazwa"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_product_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kategoria"
+            android:textColor="#AAAAAA"
+            android:textSize="14sp" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/tv_product_quantity"
