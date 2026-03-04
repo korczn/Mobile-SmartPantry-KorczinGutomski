@@ -6,7 +6,7 @@ import kotlinx.serialization.json.Json
 import java.io.File
 
 object StorageManager {
-    private const val FILE_NAME = "pantry_inventory.json"
+    private const val FILE_NAME = "pantry.json"
 
     fun saveInventory(context: Context, inventory: List<Product>) {
         val json = Json.encodeToString(inventory)
