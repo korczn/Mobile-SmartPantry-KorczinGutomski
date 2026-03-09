@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="#121212">
+    android:background="#121212"
+    >
 
     <TextView
     android:layout_width="wrap_content"
@@ -20,7 +22,7 @@
         android:id="@+id/et_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nazwa towaru (np. Woda)"
+        android:hint="Nazwa towaru"
         android:textColorHint="#888888"
         android:textColor="#FFFFFF"/>
 
@@ -37,7 +39,7 @@
         android:id="@+id/et_category"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Kategoria (np. Food)"
+        android:hint="Kategoria"
         android:textColorHint="#888888"
         android:textColor="#FFFFFF"/>
 
@@ -45,7 +47,7 @@
         android:id="@+id/et_image_ref"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Nazwa pliku ikony (np. ic_water)"
+        android:hint="Nazwa zdjecia bez jpg"
         android:textColorHint="#888888"
         android:textColor="#FFFFFF"
         android:layout_marginBottom="8dp"/>
