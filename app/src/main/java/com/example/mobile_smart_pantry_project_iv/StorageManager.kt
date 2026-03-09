@@ -6,7 +6,7 @@ import kotlinx.serialization.json.Json
 import java.io.File
 
 object StorageManager {
-    private const val FILE_NAME = "pantry.json"
+    private const val FILE_NAME = "inventory.json"
 
     fun saveInventory(context: Context, inventory: List<Product>) {
         val json = Json.encodeToString(inventory)
@@ -17,12 +17,12 @@ object StorageManager {
 
     fun loadInventory(context: Context): List<Product> {
         val file = File(context.filesDir, FILE_NAME)
-        if (!file.exists()) return mutableListOf()
+        if (!file.exists()) return emptyList()
         return try {
             val json = file.readText()
             Json.decodeFromString<List<Product>>(json)
         } catch (e: Exception) {
-            mutableListOf()
+            emptyList()
         }
     }
 }
